@@ -1,0 +1,15 @@
+{
+  "name": "nodepubsub",
+  "version": "1.0.0",
+  "description": "",
+  "main": "publisher.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node subscriber.js && node publisher.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "redis": "^4.0.4"
+  }
+}
